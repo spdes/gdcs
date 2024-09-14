@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ['gdcs']
+
+[project]
+name = "gdcs"
+version = "0.0.1"
+authors = [
+    { name="Zheng Zhao", email="zz@zabemon.com" },
+]
+description = "Pedagogical examples in generative diffusions conditional sampling"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Mathematics"
+]
+keywords = ["Markov models", "JAX", "Bayesian inference", "stochastic filtering", "machine learning"]
+dependencies = [
+    "numpy==2.1.1",
+    "jax==0.4.30",
+    "jaxlib==0.4.30",
+    "jaxopt==0.8.3",
+    "optax==0.2.3",
+    "flax==0.8.5",
+    "matplotlib==3.9.2",
+    "scipy==1.14.0"
+]
+
+[project.urls]
+homepage = "https://github.com/spdes/gdcs"
+documentation = "https://github.com/spdes/gdcs"
+repository = "https://github.com/spdes/gdcs"
