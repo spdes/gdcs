@@ -34,7 +34,8 @@ dependencies = [
     "optax==0.2.3",
     "flax==0.8.5",
     "matplotlib==3.9.2",
-    "scipy==1.14.0"
+    "scipy==1.14.0", 
+    "blackjax==1.2.3"
 ]
 
 [project.urls]
