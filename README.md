@@ -11,6 +11,8 @@ For details of these methods, please refer to our paper.
 
 <img src="./docs/cond-samples.png" style="width: 60%; height: auto; display: block; margin-left: auto; margin-right: auto">
 
+In the figure above, you can see three types of posterior distributions, and approximate samples drawn from CDSB, Feynman--Kac, and HMC. 
+
 # Install
 
 First, git clone this repository, and then set-up your environment by running
@@ -42,6 +44,7 @@ Please cite us using the following BibTex.
   author={Zhao, Zheng and Luo, Ziwei and Sj\"{o}lund, Jens and Sch\"{o}n, Thomas B.}, 
   journal={arXiv preprint arXiv:xxx}, 
   year={2024}
+}
 ```
 
 # License
