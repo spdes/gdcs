@@ -39,10 +39,10 @@ The folder `./demos/checkpoints` contains the trained models.
 Please cite us using the following BibTex.
 
 ```bibtex
-@article{Zhao2024gdcs, 
+@article{Zhao2024rsta, 
   title={Conditional sampling within generative diffusion models}, 
   author={Zhao, Zheng and Luo, Ziwei and Sj\"{o}lund, Jens and Sch\"{o}n, Thomas B.}, 
-  journal={arXiv preprint arXiv:xxx}, 
+  journal={arXiv preprint arXiv:2409.09650}, 
   year={2024}
 }
 ```
